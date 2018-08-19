@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index",
+  "typs": "lib/index.d.ts",
   "peerDependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

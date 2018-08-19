@@ -6,10 +6,16 @@
     "target": "es6",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
-    "lib": ["dom", "ES2017"]
+    "lib": ["dom", "ES2017"],
+    "declaration": true,
+    "declarationDir": "./"
   },
   "include": [
     "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
 
